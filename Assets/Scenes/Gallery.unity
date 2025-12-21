@@ -2464,7 +2464,8 @@ PrefabInstance:
       value: 0.0448
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: -1540762886499454897, guid: d9799788d163d364eb2966a54ca1d44b, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -7171607895111325692, guid: d9799788d163d364eb2966a54ca1d44b, type: 3}
       insertIndex: -1
@@ -10087,14 +10088,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 624630996}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.8924384, z: -0, w: -0.4511692}
-  m_LocalPosition: {x: -6.587, y: 1.749, z: 9.26}
+  m_LocalRotation: {x: -0, y: 0.54597336, z: -0, w: -0.8378026}
+  m_LocalPosition: {x: 7.318, y: 1.799, z: 49.963}
   m_LocalScale: {x: 1.9995253, y: 1.1270396, z: 0.93636}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 440262629}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 233.637, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 293.818, z: 0}
 --- !u!1001 &627392833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13991,7 +13992,7 @@ GameObject:
   - component: {fileID: 832635116}
   - component: {fileID: 832635115}
   m_Layer: 5
-  m_Name: PlayUI
+  m_Name: PlayerUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23598,14 +23599,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1689668253}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.9791824, z: -0, w: -0.20298232}
-  m_LocalPosition: {x: -3.311, y: 1.749, z: 6.596}
+  m_LocalRotation: {x: -0, y: -0.31725803, z: -0, w: 0.9483393}
+  m_LocalPosition: {x: 9.988, y: 1.749, z: 53.224}
   m_LocalScale: {x: 1.9995253, y: 1.1270396, z: 0.93636}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 628646999}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 203.423, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -36.994, z: 0}
 --- !u!1 &1696058048
 GameObject:
   m_ObjectHideFlags: 0
@@ -25572,19 +25573,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2136929677}
-  - {fileID: 773612560}
-  - {fileID: 1417691662}
-  - {fileID: 2068270733}
-  - {fileID: 1696058049}
-  - {fileID: 14510435}
-  - {fileID: 1333806521}
-  - {fileID: 2126434239}
-  - {fileID: 2121707080}
-  - {fileID: 1331788667}
-  - {fileID: 522662598}
-  - {fileID: 2054113146}
-  - {fileID: 332597676}
   - {fileID: 2117377642}
   - {fileID: 565226715}
   - {fileID: 1963277304}
@@ -25599,6 +25587,19 @@ RectTransform:
   - {fileID: 1546443687}
   - {fileID: 1075852639}
   - {fileID: 844436647}
+  - {fileID: 332597676}
+  - {fileID: 2054113146}
+  - {fileID: 522662598}
+  - {fileID: 1331788667}
+  - {fileID: 2121707080}
+  - {fileID: 2126434239}
+  - {fileID: 1333806521}
+  - {fileID: 14510435}
+  - {fileID: 1696058049}
+  - {fileID: 2068270733}
+  - {fileID: 1417691662}
+  - {fileID: 773612560}
+  - {fileID: 2136929677}
   - {fileID: 1564787208}
   - {fileID: 1210378896}
   - {fileID: 1308890769}
@@ -32213,36 +32214,36 @@ SceneRoots:
   - {fileID: 5226203432431967431}
   - {fileID: 627392833}
   - {fileID: 146169022}
-  - {fileID: 1894758636}
+  - {fileID: 2074002033}
+  - {fileID: 1438491014}
+  - {fileID: 1560585546}
   - {fileID: 1734858417}
-  - {fileID: 424971170}
-  - {fileID: 729819480}
-  - {fileID: 817272878}
-  - {fileID: 1140811727}
-  - {fileID: 909467174}
   - {fileID: 752774779}
-  - {fileID: 391494784}
   - {fileID: 1942553466}
-  - {fileID: 628852413}
   - {fileID: 226945963}
-  - {fileID: 695864431}
   - {fileID: 1927707391}
-  - {fileID: 433297931}
   - {fileID: 800757938}
-  - {fileID: 1830719151}
   - {fileID: 2101542237}
   - {fileID: 1903997096}
-  - {fileID: 1480997050}
-  - {fileID: 1689668257}
   - {fileID: 32535361}
-  - {fileID: 624631000}
   - {fileID: 1278647144}
+  - {fileID: 729819480}
+  - {fileID: 624631000}
+  - {fileID: 1689668257}
+  - {fileID: 1480997050}
+  - {fileID: 1830719151}
+  - {fileID: 433297931}
+  - {fileID: 695864431}
+  - {fileID: 628852413}
+  - {fileID: 391494784}
+  - {fileID: 909467174}
+  - {fileID: 1140811727}
+  - {fileID: 817272878}
+  - {fileID: 424971170}
+  - {fileID: 1894758636}
   - {fileID: 853932704}
-  - {fileID: 2074002033}
   - {fileID: 459182464}
-  - {fileID: 1438491014}
   - {fileID: 756608426}
-  - {fileID: 1560585546}
   - {fileID: 2070685860420963048}
   - {fileID: 1845437573}
   - {fileID: 183649149}
