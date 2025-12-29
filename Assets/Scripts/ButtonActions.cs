@@ -154,5 +154,14 @@ public class ButtonActions : MonoBehaviour
     {
         thisUrl = "https://youtu.be/3ScuJQWz6R4?list=PLhYG3NI3HHyseNfwIOsV2lwPLk7uO65hT";
         UnityEngine.Application.OpenURL(thisUrl);
+    }public void button31()
+    {
+        thisUrl = "https://youtu.be/d5oXRKr13WE?si=QNH5UuRHXG8zYFj9";
+        UnityEngine.Application.OpenURL(thisUrl);
+    }
+    public void button32()
+    {
+        thisUrl = "https://youtu.be/eU6CRiNbVpU?si=EMODNJiWOL2t-w6o";
+        UnityEngine.Application.OpenURL(thisUrl);
     }
 }
